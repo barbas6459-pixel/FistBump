@@ -1,0 +1,25 @@
+FistBump - envia una imagen o video al chocar dos celulares
+
+Como compilar (GitHub, sin instalar nada):
+1. Crea un repositorio nuevo en github.com, por ejemplo "FistBump".
+2. Sube TODO el contenido de esta carpeta (incluida la carpeta oculta .github)
+   usando "uploading an existing file".
+3. Ve a la pestaña Actions y espera a que termine "Build APK" (circulo verde).
+4. Entra a esa ejecucion, baja hasta "Artifacts" y descarga "FistBump-apk".
+5. Descomprime y pasa app-debug.apk al celular para instalarlo.
+
+Como usarla:
+1. Instala la app en los DOS celulares.
+2. En cada uno, toca "Elegir imagen o video" y selecciona lo que quieres enviar
+   (puedes dejarlo vacio si solo quieres recibir).
+3. Toca "Activar FistBump" y acepta los permisos de ubicacion y Bluetooth.
+4. Choca los dos celulares con fuerza, como un saludo de puños.
+5. El archivo elegido se envia solo, sin pedir aceptar, y se guarda en la
+   galeria del otro telefono (carpeta FistBump dentro de Imagenes, Videos o
+   Descargas, segun el tipo de archivo).
+
+Notas:
+- Los dos telefonos deben tener Bluetooth y ubicacion activados.
+- La primera vez que dos telefonos se conectan, Android puede mostrar un
+  aviso de emparejamiento una sola vez; es normal del sistema, no de la app.
+- El envio es directo entre los dos telefonos, sin pasar por internet.
